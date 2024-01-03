@@ -10,9 +10,10 @@
 
 </ul>
 
-Key Components:
+<h3>Key Components:</h3>
 
-Main Window: The main window contains fields for entering the scholar number and student name, along with a login button.
+<h4>Main Window:</h4>
+<p>The main window contains fields for entering the scholar number and student name, along with a login button.</p> 
 Student Login: After entering the scholar number and student name, the system attempts to match the provided information with the stored data.
 Camera Integration: The GUI includes a live camera feed for capturing images during student logins.
 Attendance Marking: Upon successful face recognition, the system marks attendance for the corresponding student and updates a CSV file.
