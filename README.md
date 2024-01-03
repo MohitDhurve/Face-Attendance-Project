@@ -14,10 +14,16 @@
 
 <h4>Main Window:</h4>
 <p>The main window contains fields for entering the scholar number and student name, along with a login button.</p> 
-Student Login: After entering the scholar number and student name, the system attempts to match the provided information with the stored data.
-Camera Integration: The GUI includes a live camera feed for capturing images during student logins.
-Attendance Marking: Upon successful face recognition, the system marks attendance for the corresponding student and updates a CSV file.
-Files and Directories:
+<h4>Student Login:</h4>
+<p>After entering the scholar number and student name, the system attempts to match the provided information with the stored data.</p>
+<h4>Camera Integration:</h4>
+<p>The GUI includes a live camera feed for capturing images during student logins.</p>
+<h4>Attendance Marking:</h4>
+<p>Upon successful face recognition, the system marks attendance for the corresponding student and updates a CSV file.
+Files and Directories:</p>
+
+<h3>Files and Directories:</h3>
+
 
 Student_face Directory: Contains images of known student faces.
 Clicked_face Directory: Stores images captured during the login process.
