@@ -1,10 +1,15 @@
 # Face-Attendance-Project
 <h3>Functionality:</h3>
 
-<p>The program uses the Tkinter library for creating a graphical user interface (GUI).</p>
-<p></p>It integrates the OpenCV library to capture and process video frames from a camera.</p>
-Face recognition is implemented using the face_recognition library.
-The system matches a student's face with known faces stored in the 'Student_face' directory.
+
+<ul>
+  <li>The program uses the Tkinter library for creating a graphical user interface (GUI).</li>
+  <li>It integrates the OpenCV library to capture and process video frames from a camera.</li>
+  <li>Face recognition is implemented using the face_recognition library.</li>
+  <li>The system matches a student's face with known faces stored in the 'Student_face' directory.</li>
+
+</ul>
+
 Key Components:
 
 Main Window: The main window contains fields for entering the scholar number and student name, along with a login button.
