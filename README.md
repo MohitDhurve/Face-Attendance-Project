@@ -23,21 +23,32 @@
 Files and Directories:</p>
 
 <h3>Files and Directories:</h3>
+<h4>Student_face Directory:</h4>
+<p>Contains images of known student faces.</p>
+<h4>Clicked_face Directory:</h4>
+<p>Stores images captured during the login process.</p>
+<h4>Mainface Directory:</h4>
+<p>Includes subdirectories for storing student CSV files and other resources.</p>
+
+<h3>Additional Notes:</h3>
+<ul>
+  <li>The attendance is marked based on the matching of faces and corresponding scholar numbers.</li>
+  <li>The program reads a CSV file ('data (1).csv') for scholar number and student name information.</li>
+  <li>There is a reference to a timetable file ('NEW TIME TABLE.xlsx') for determining the current period.</li>
+</ul>
 
 
-Student_face Directory: Contains images of known student faces.
-Clicked_face Directory: Stores images captured during the login process.
-Mainface Directory: Includes subdirectories for storing student CSV files and other resources.
-Additional Notes:
 
-The attendance is marked based on the matching of faces and corresponding scholar numbers.
-The program reads a CSV file ('data (1).csv') for scholar number and student name information.
-There is a reference to a timetable file ('NEW TIME TABLE.xlsx') for determining the current period.
-Dependencies:
+<h3>Dependencies:</h3>
 
-The script depends on various libraries, such as Tkinter, PIL (Pillow), pandas, OpenCV, face_recognition, and datetime.
-Possible Improvements:
+<p>The script depends on various libraries, such as Tkinter, PIL (Pillow), pandas, OpenCV, face_recognition, and datetime.</p>
+<h3>Possible Improvements:</h3>
+<ul>
+  <li>Error handling and logging could be enhanced for better robustness.</li>
+  <li>The code could be structured into functions for improved readability and maintainability.</li>
+  <li>Consideration of security measures for face recognition systems, as they are susceptible to various attacks.</li>
+</ul>
 
-Error handling and logging could be enhanced for better robustness.
-The code could be structured into functions for improved readability and maintainability.
-Consideration of security measures for face recognition systems, as they are susceptible to various attacks.
+
+
+
