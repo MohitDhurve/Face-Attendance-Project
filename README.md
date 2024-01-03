@@ -12,23 +12,38 @@
 
 <h3>Key Components:</h3>
 
-<h4>Main Window:</h4>
-<p>The main window contains fields for entering the scholar number and student name, along with a login button.</p> 
-<h4>Student Login:</h4>
-<p>After entering the scholar number and student name, the system attempts to match the provided information with the stored data.</p>
-<h4>Camera Integration:</h4>
-<p>The GUI includes a live camera feed for capturing images during student logins.</p>
-<h4>Attendance Marking:</h4>
-<p>Upon successful face recognition, the system marks attendance for the corresponding student and updates a CSV file.
-Files and Directories:</p>
+<ul>
+  <li>
+    <h4>Main Window:</h4>
+    <p>The main window contains fields for entering the scholar number and student name, along with a login button.</p> 
+  </li>
+  <li><h4>Student Login:</h4>
+  <p>After entering the scholar number and student name, the system attempts to match the provided information with the stored data.</p></li>
+  <li><h4>Camera Integration:</h4>
+  <p>The GUI includes a live camera feed for capturing images during student logins.</p></li>
+  <li><h4>Attendance Marking:</h4>
+  <p>Upon successful face recognition, the system marks attendance for the corresponding student and updates a CSV file.
+  Files and Directories:</p></li>
+</ul>
+
+
+
+
 
 <h3>Files and Directories:</h3>
-<h4>Student_face Directory:</h4>
-<p>Contains images of known student faces.</p>
-<h4>Clicked_face Directory:</h4>
-<p>Stores images captured during the login process.</p>
-<h4>Mainface Directory:</h4>
-<p>Includes subdirectories for storing student CSV files and other resources.</p>
+
+<ul>
+  <li><h4>Student_face Directory:</h4>
+  <p>Contains images of known student faces.</p></li>
+  <li><h4>Clicked_face Directory:</h4>
+  <p>Stores images captured during the login process.</p></li>
+  <li><h4>Mainface Directory:</h4>
+  <p>Includes subdirectories for storing student CSV files and other resources.</p>
+</li>
+</ul>
+
+
+
 
 <h3>Additional Notes:</h3>
 <ul>
