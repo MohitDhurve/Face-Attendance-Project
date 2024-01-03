@@ -7,13 +7,13 @@ import os
 from datetime import datetime
 import csv
 
-
+# directory
 STUDENT_FACE_DIRECTORY = 'Student_face'
 MANIT_LOGO_PATH = 'C:/Users/dhurv/PycharmProjects/aiproject/gui_logo/manitlogo.png'
 STUDENT_LOGO_PATH = 'C:/Users/dhurv/PycharmProjects/aiproject/gui_logo/studentlogo.png'
 CLICKED_FACE_PATH = 'clicked_face'
 
-# Initialize cap as a global variable
+# Initialized global variable
 cap = None
 camera_update_flag = True
 camera_label = None
@@ -68,7 +68,7 @@ def check_matching_face():
                 return True
     return False
 
-
+# time table 
 def attendence():
     df = pd.read_excel('NEW TIME TABLE.xlsx')
     columns_to_fill = ['FOURTH PERIOD', 'SIXTH PERIOD']
